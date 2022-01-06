@@ -38,8 +38,6 @@ export function fetchGetMovieCast({ movieId }) {
   );
 }
 
-// Get movie reviews
-// https://api.themoviedb.org/3/movie/{movie_id}/reviews?api_key=<<api_key>>&language=en-US&page=1
 export function fetchGetMovieReviews({ movieId }) {
   return FetchWithErrorHandling(
     `${BASE_URL}movie/${movieId}/reviews?${API_KEY}&language=en-US&page=1`,

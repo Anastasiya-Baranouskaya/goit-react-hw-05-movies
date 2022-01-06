@@ -9,8 +9,8 @@ import {
   useLocation,
   useHistory,
 } from 'react-router-dom';
-import LoaderSpin from '../../Loader/LoaderSpin';
-import { fetchGetMovieDetails } from '../../services/movies-api';
+import LoaderSpin from '../../components/Loader/LoaderSpin';
+import { fetchGetMovieDetails } from '../../components/services/movies-api';
 
 const Cast = lazy(() =>
   import('../Cast/Cast.js' /* webpackChunkName: "cast-subpage" */),

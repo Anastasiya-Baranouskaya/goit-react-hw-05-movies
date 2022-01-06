@@ -1,7 +1,7 @@
 import styles from './HomePage.module.css';
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { fetchTrendMovies } from '../../services/movies-api';
+import { fetchTrendMovies } from '../../components/services/movies-api';
 
 const HomePage = () => {
   const location = useLocation();

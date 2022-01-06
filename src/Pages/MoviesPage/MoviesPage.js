@@ -2,8 +2,8 @@ import styles from './MoviesPage.module.css';
 import { toast } from 'react-toastify';
 import { useState, useEffect } from 'react';
 import { Link, useRouteMatch, useLocation, useHistory } from 'react-router-dom';
-import { fetchSearchMovies } from '../../services/movies-api';
-import MoviesSearch from '../MoviesSearch/MoviesSearch';
+import { fetchSearchMovies } from '../../components/services/movies-api';
+import MoviesSearch from '../../components/MoviesSearch/MoviesSearch';
 
 const noPoster =
   'https://cdn.pixabay.com/photo/2018/01/04/15/51/404-error-3060993_960_720.png';

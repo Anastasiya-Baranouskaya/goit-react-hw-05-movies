@@ -1,7 +1,7 @@
 import styles from './Cast.module.css';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchGetMovieCast } from '../../services/movies-api';
+import { fetchGetMovieCast } from '../../components/services/movies-api';
 
 const noProfile =
   'https://t4.ftcdn.net/jpg/01/86/29/31/240_F_186293166_P4yk3uXQBDapbDFlR17ivpM6B1ux0fHG.jpg';
