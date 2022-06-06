@@ -10,14 +10,14 @@ const Navigation = () => {
         className={styles.link}
         activeClassName={styles.activeLink}
       >
-        HomePage
+        Home Page
       </NavLink>
       <NavLink
         to="/movies"
         className={styles.link}
         activeClassName={styles.activeLink}
       >
-        MoviesPage
+        Movies Page
       </NavLink>
     </nav>
   );
