@@ -9,8 +9,8 @@
     "home-page.js": "/static/js/home-page.339ac126.chunk.js",
     "home-page.js.map": "/static/js/home-page.339ac126.chunk.js.map",
     "main.css": "/static/css/main.f9c586db.chunk.css",
-    "main.js": "/static/js/main.d1cd0541.chunk.js",
-    "main.js.map": "/static/js/main.d1cd0541.chunk.js.map",
+    "main.js": "/static/js/main.449b2c3a.chunk.js",
+    "main.js.map": "/static/js/main.449b2c3a.chunk.js.map",
     "movie-details-page.css": "/static/css/movie-details-page.b0cf63d3.chunk.css",
     "movie-details-page.js": "/static/js/movie-details-page.85d88382.chunk.js",
     "movie-details-page.js.map": "/static/js/movie-details-page.85d88382.chunk.js.map",
@@ -42,6 +42,6 @@
     "static/css/9.4edc0d6c.chunk.css",
     "static/js/9.54c87aed.chunk.js",
     "static/css/main.f9c586db.chunk.css",
-    "static/js/main.d1cd0541.chunk.js"
+    "static/js/main.449b2c3a.chunk.js"
   ]
 }
